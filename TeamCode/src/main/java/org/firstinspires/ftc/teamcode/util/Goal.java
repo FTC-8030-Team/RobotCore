@@ -8,11 +8,6 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Goal {
-<<<<<<< HEAD
-    private Servo[] servos;
-    private DcMotor[] motors;
-    private int[] positions;
-=======
     private Servo[] Servos;
     private DcMotor[] Motors;
     private int[] Positions;
