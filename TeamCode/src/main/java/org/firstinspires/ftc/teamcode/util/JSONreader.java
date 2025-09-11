@@ -25,7 +25,9 @@ public class JSONreader {
             System.err.println("JSON syntax error: " + e.getMessage());
         } catch (IOException e) {
             System.err.println("IO error: " + e.getMessage());
-        }
+        } catch (Exception e) {
+	    System.err.println(e.getMessage());
+	}
         return null;
     }
 }
